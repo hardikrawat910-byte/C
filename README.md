@@ -1,22 +1,27 @@
-# HTML Practice
+# C Programming Practice
 
-A collection of HTML practice projects built while learning web development fundamentals.
+A collection of C programs written while learning systems programming on Linux.
 
 ## 📁 Contents
 
-- Basic HTML structure and semantic tags
-- Forms, tables, and lists
-- CSS styling and layouts
-- Mini projects and UI components
+- Basic I/O and data types
+- Control flow (loops, conditionals)
+- Functions and recursion
+- Arrays, pointers, and strings
+- File handling
+- Linux-based programs and exercises
 
-## 🛠️ Tech Used
+## 🛠️ Requirements
 
-- HTML5
-- CSS3
+- GCC compiler
+- Linux / WSL / any Unix-based terminal
 
-## 🚀 How to View
+## ▶️ How to Run
 
-Simply open any `.html` file in your browser — no setup needed.
+```bash
+gcc filename.c -o output
+./output
+```
 
 ## 👨‍💻 Author
 
