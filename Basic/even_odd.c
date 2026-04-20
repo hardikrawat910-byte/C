@@ -1,30 +1,22 @@
-#include<stdio.h>
-	int main()
-{
-	int n;
-	printf("Enter a value of your choice:");
-	scanf("%d",&n);
-	if(n%2==0)
-    {
-	printf("Given value %d is even",n);
-    }
-	else
-    {
-	printf("Given value %d is odd",n);
-     }
+#include <stdio.h>
 
+int main() {
+	 clrscr();
+    int n;
+    printf("Enter a value: "); // Ensure the prompt is printed before input
+    scanf("%d", &n);
 
-	if(n>0)
-    {
-	 printf("Given value %d is positve",n);
-    }
-	else if(n<0)
-    {
-	printf("Given value %d is negative",n);
-    }
-	else
-    {
-	printf("Given value %d is zero",n);
-    }
-	return 0;
-}
+    if (n % 2 == 0)
+        printf("Given value %d is even\n", n);
+    else
+        printf("Given value %d is odd\n", n);
+
+    if (n > 0)
+        printf("Given value %d is positive\n", n);
+    else if (n < 0)
+        printf("Given value %d is negative\n", n);
+    else
+        printf("Given value is zero\n");
+
+    return 0;
+	}
