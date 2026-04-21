@@ -23,6 +23,12 @@ gcc filename.c -o output
 ./output
 ```
 
+## ✅ Run Tests
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
 ## 👨‍💻 Author
 
 **Hardik Rawat** — [@hardikrawat910-byte](https://github.com/hardikrawat910-byte)  
