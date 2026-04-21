@@ -26,3 +26,5 @@ TestResults.xml
 *.obj
 build/
 bin/
+__pycache__/
+*.pyc
